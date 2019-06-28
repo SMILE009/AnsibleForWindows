@@ -1,0 +1,13 @@
+---
+# tasks file for iis_install
+- name: Enable IIS (Internet Information Services)
+  win_feature:
+    name: Web-Server
+    state: present
+    include_sub_features: yes
+    include_management_tools: yes
+- name: Deploy additional page with Hello World
+  win_copy:
+   src: files/additional.htm
+   dest: c:\inetpub\wwwroot\additional.htm
+   force: yes

@@ -1,0 +1,5 @@
+---
+- hosts: test_group
+  gather_facts: no
+  roles:
+    - role: iis_install

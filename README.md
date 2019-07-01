@@ -6,6 +6,9 @@ Practice with using ansible to provisioning Windows Server machine
 - [x] Prepare Windows vm by using bootstrap scripts for WinRM
 - [x] Create skeleton for Webserver role which install IIS and extra features (using ansible-galaxy init)
 - [x] Setup IIS with extra features on the vm using ansible (dont forget to add VM to hosts:) )
+Aditional tasks:
+- [] Ansible vault is  need to be used.
+- [] Configure extra features IIS 
 
 ## setup control node for ansible.
 Install pip for python 2.7
